@@ -38,30 +38,34 @@ export const LayoutProject = ({
 }: Props) => {
   return (
     <>
-      <Breadcrumb className="mb-5 text-secondary">
+      <Breadcrumb className="mb-5 text-secondary-light dark:text-secondary-dark">
         <BreadcrumbList>
           <BreadcrumbItem>
             <BreadcrumbLink
               href="/#projects"
-              className="hover:text-primary hover:underline underline-offset-4"
+              className="hover:text-primary-light hover:dark:text-primary-dark hover:underline underline-offset-4"
             >
               Inicio
             </BreadcrumbLink>
           </BreadcrumbItem>
           <BreadcrumbSeparator />
-          <BreadcrumbItem className="text-primary">{name}</BreadcrumbItem>
+          <BreadcrumbItem className="text-primary-light dark:text-primary-dark">
+            {name}
+          </BreadcrumbItem>
         </BreadcrumbList>
       </Breadcrumb>
       <section>
         <div className="flex flex-col gap-5 mb-5">
           <p>{title}</p>
-          <p className="text-secondary">{paragraph}</p>
+          <p className="text-secondary-light dark:text-secondary-dark">
+            {paragraph}
+          </p>
         </div>
         <section>
           <div className="flex flex-col gap-3 mb-10">
             {badgeItems.map(({ id, title, text }) => (
-              <div key={id} className="flex flex-row gap-3">
-                <Badge className="text-white bg-primary rounded-md">
+              <div key={id} className="flex flex-row gap-3 flex-wrap">
+                <Badge className="text-white dark:text-black bg-primary-light dark:bg-primary-dark rounded-md">
                   {title}
                 </Badge>
 
@@ -69,12 +73,12 @@ export const LayoutProject = ({
                   <Link
                     href={text}
                     target="_blank"
-                    className="hover:underline underline-offset-4"
+                    className="hover:underline underline-offset-4 text-sm"
                   >
                     {text}
                   </Link>
                 ) : (
-                  <span>{text}</span>
+                  <span className="text-sm">{text}</span>
                 )}
               </div>
             ))}

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Fira_Code } from "next/font/google";
 import "./globals.css";
+import { Providers } from "@/components/theme-provider";
 
 const firacode = Fira_Code({
   weight: ["300", "400", "500", "600", "700"],
@@ -19,7 +20,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={firacode.className}>{children}</body>
+      <body className={firacode.className}>
+        <Providers>{children}</Providers>
+      </body>
     </html>
   );
 }

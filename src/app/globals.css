@@ -3,5 +3,9 @@
 @tailwind utilities;
 
 body {
-  @apply text-primary bg-noiseWhite;
+  @apply text-primary-light bg-light-bg bg-noiseWhite dark:bg-noiseBlack text-sm lg:text-base dark:bg-dark-bg dark:text-primary-dark;
 }
+/* 
+p{
+  @apply text-[#7d7d7d]
+} */

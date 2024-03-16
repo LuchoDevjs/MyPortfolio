@@ -9,9 +9,15 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        noiseWhite: "url('/assets/NoisyWhite.png')",
+        noiseBlack: "url('/assets/NoisyBlack.png')",
+      },
+      maxWidth: {
+        "8xl": "1165px",
+      },
+      colors: {
+        primary: "#0C0C0C",
+        secondary: "#5F5F5F",
       },
     },
   },

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { HiOutlineDownload } from "react-icons/hi";
 
 export const About = () => {
@@ -6,7 +7,7 @@ export const About = () => {
     <div className="flex flex-col my-24 gap-5 max-w-[475px] max-y-[157px] mx-auto">
       <div className="flex flex-col gap-3 items-center">
         <Image
-          src="/assets/lucianoGonzalez.jpeg"
+          src="/assets/my/lucianoGonzalez.jpeg"
           alt="Profile"
           width={100}
           height={100}
@@ -21,9 +22,12 @@ export const About = () => {
           conocimientos en backend. Me enfoco en desarrollar sitios web
           responsivos y funcionales, garantizando calidad y eficiencia.
         </p>
-        <div className="flex flex-row justify-center items-center gap-3">
-          <button>Download CV</button>
-          <HiOutlineDownload size={25} />
+        <div className="flex flex-row justify-center items-center gap-3 w-full">
+          <Link href="/assets/cv/LucianoGonzalez-CV.pdf" target="_blank">
+            <button className="flex flex-row gap-3 rounded-xl p-2 border border-transparent hover:border-black">
+              Ver CV <HiOutlineDownload size={25} />
+            </button>
+          </Link>
         </div>
       </div>
     </div>

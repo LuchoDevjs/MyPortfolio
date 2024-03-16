@@ -1,2 +1,3 @@
-export * from "./Projects.data";
-export * from "./Projects";
+export * from "./Carousel.data";
+export * from "./IndividualProject";
+export * from "./ProjectCarousel";

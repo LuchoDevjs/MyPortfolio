@@ -2,7 +2,7 @@ export const dataNavbar = [
   {
     id: 1,
     name: "Sobre mi",
-    idLink: "#about",
+    idLink: "#",
   },
   {
     id: 2,
@@ -11,17 +11,12 @@ export const dataNavbar = [
   },
   {
     id: 3,
-    name: "Portfolio",
-    idLink: "#portfolio",
+    name: "Educación",
+    idLink: "#education",
   },
   {
     id: 4,
-    name: "Habilidades",
-    idLink: "#skills",
-  },
-  {
-    id: 5,
-    name: "Contacto",
-    idLink: "#contact",
+    name: "Proyectos",
+    idLink: "#projects",
   },
 ];

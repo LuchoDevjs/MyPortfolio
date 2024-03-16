@@ -2,7 +2,7 @@ import { CgBrowser } from "react-icons/cg";
 import { IoServerOutline } from "react-icons/io5";
 import { VscTools } from "react-icons/vsc";
 
-export const dataSkills = [
+export const dataServices = [
   {
     id: 1,
     category: "Desarrollador Front-End",

@@ -1,10 +1,10 @@
-import { dataCounter, dataSkills } from ".";
+import { dataCounter, dataServices } from ".";
 
 export const Services = () => {
   return (
-    <section className="grid grid-cols-2 gap-28 mb-24">
+    <section className="grid grid-cols-2 gap-28 mb-24" id="services">
       <div className="flex flex-col items-center gap-10">
-        {dataSkills.map(({ id, category, technologies, icon }) => (
+        {dataServices.map(({ id, category, technologies, icon }) => (
           <div key={id} className="flex flex-row items-start">
             <div className="mr-5">{icon}</div>
             <div className="flex flex-col gap-2">

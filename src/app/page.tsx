@@ -2,7 +2,7 @@ import { About } from "@/components/About";
 import { Education } from "@/components/Education";
 import { Footer } from "@/components/Footer";
 import { Navbar } from "@/components/Navbar";
-import { Projects } from "@/components/Projects";
+import { ProjectCarousel } from "@/components/Projects";
 import { Services } from "@/components/Services";
 
 export default function Home() {
@@ -13,7 +13,7 @@ export default function Home() {
         <About />
         <Services />
         <Education />
-        <Projects />
+        <ProjectCarousel />
       </div>
       <Footer />
     </>

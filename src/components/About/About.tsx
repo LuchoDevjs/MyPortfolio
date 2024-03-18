@@ -1,7 +1,10 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import { HiOutlineDownload } from "react-icons/hi";
 import { ScrollAnimation } from "../Animations";
+import { Skeleton } from "../ui/skeleton";
 
 export const About = () => {
   return (
@@ -15,6 +18,7 @@ export const About = () => {
             height={100}
             className="rounded-full"
           />
+
           <p className="text-xl">Luciano González</p>
         </div>
         <div className="flex flex-col gap-8 text-center">

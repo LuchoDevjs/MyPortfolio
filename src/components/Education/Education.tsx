@@ -11,6 +11,7 @@ import {
 } from "@/components/ui/carousel";
 import { dataEducation } from ".";
 import { ScrollAnimation } from "../Animations";
+import { Skeleton } from "../ui/skeleton";
 
 export const Education = () => {
   return (
@@ -31,9 +32,9 @@ export const Education = () => {
           orientation="vertical"
           className="w-full max-w-3xl"
         >
-          <CarouselContent className="-mt-1 h-[280px] lg:h-[700px] md:h-[600px]">
+          <CarouselContent className="-mt-1 h-[300px] lg:h-[700px] md:h-[800px] sm:h-[700px]">
             {dataEducation.map(({ id, diploma }) => (
-              <CarouselItem key={id} className="pt-1 md:basis-1/2">
+              <CarouselItem key={id} className="pt-1 basis-1/2">
                 <div className="p-1">
                   <Card className="border-none">
                     <CardContent className="flex items-center justify-center p-0 lg:p-6">

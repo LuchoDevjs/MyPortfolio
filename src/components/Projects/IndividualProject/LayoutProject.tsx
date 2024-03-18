@@ -9,6 +9,7 @@ import {
 import { Badge } from "@/components/ui/badge";
 import Link from "next/link";
 import Image from "next/image";
+import { FadeIn } from "@/components/Animations";
 
 interface Map {
   id: string;
@@ -37,7 +38,7 @@ export const LayoutProject = ({
   images,
 }: Props) => {
   return (
-    <>
+    <FadeIn>
       <Breadcrumb className="mb-5 text-secondary-light dark:text-secondary-dark">
         <BreadcrumbList>
           <BreadcrumbItem>
@@ -97,6 +98,6 @@ export const LayoutProject = ({
           </div>
         </section>
       </section>
-    </>
+    </FadeIn>
   );
 };

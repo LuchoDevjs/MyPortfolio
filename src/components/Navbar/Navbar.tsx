@@ -28,7 +28,7 @@ export const Navbar = () => {
         <HiOutlineMail size={20} />
         <Link
           href="mailto:lucianogonzalezz080@gmail.com"
-          className="cursor-pointer"
+          className="cursor-pointer hover:underline underline-offset-4"
         >
           lucianogonzalezz080@gmail.com
         </Link>
@@ -38,7 +38,7 @@ export const Navbar = () => {
           <Link
             key={id}
             href={idLink}
-            className="border-b-2 border-transparent hover:border-black"
+            className="border-b-2 border-transparent hover:border-black dark:hover:border-white"
           >
             <div className="lg:hidden">
               {id === 1 && <HiOutlineUser size={27} />}

@@ -1,4 +1,4 @@
-export const dataCarousel = [
+export const dataProjects = [
   {
     id: 1,
     project: "/assets/projects/project1/landingPageJuanaSotelo.png",

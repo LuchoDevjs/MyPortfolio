@@ -23,7 +23,7 @@ export const dataServices = [
     id: 3,
     category: "Herramientas y Tecnologías Adicionales",
     technologies:
-      "Integro Sass para escribir CSS de manera más eficiente. Utilizo Git para el control de versiones, asegurando una colaboración efectiva y un seguimiento detallado de los cambios en el proyecto.",
+      "Utilizo Git para el control de versiones, asegurando una colaboración efectiva y un seguimiento detallado de los cambios en el proyecto.",
     icon: <VscTools size={25} />,
   },
 ];

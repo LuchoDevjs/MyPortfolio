@@ -6,7 +6,7 @@ import { FaRegCopyright } from "react-icons/fa";
 
 export const Footer = () => {
   return (
-    <section className="bg-noiseBlack dark:bg-noiseWhite bg-black dark:bg-[#d8d8d8] rounded-t-3xl">
+    <section className="bg-noiseBlack dark:bg-noiseWhite bg-black dark:bg-[#d8d8d8] rounded-t-[50px]">
       <div className="flex flex-col lg:flex-row gap-8 justify-between p-5 items-center max-w-8xl mx-auto">
         <div className="flex flex-col gap-3 text-center">
           <div className="flex flex-row gap-3 items-center">

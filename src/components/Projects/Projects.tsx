@@ -1,8 +1,6 @@
 "use client";
 
-import Image from "next/image";
-import Link from "next/link";
-import { dataProjects } from ".";
+import { Old, Soon } from ".";
 import { ScrollAnimation } from "../Animations";
 
 export const ProjectCarousel = () => {
@@ -13,19 +11,10 @@ export const ProjectCarousel = () => {
           <h1>Proyectos</h1>
           <h2 className="text-2xl lg:text-4xl">Mis proyectos</h2>
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
-          {dataProjects.map(({ id, project, path }) => (
-            <Link key={id} href={path}>
-              <Image
-                src={project}
-                alt="Project"
-                width={600}
-                height={600}
-                className="rounded-xl hover:brightness-75 transition-all duration-500 ease-in-out cursor-pointer"
-              />
-            </Link>
-          ))}
-        </div>
+        <section className="flex flex-col items-center justify-center">
+          <Soon />
+          <Old />
+        </section>
       </div>
     </ScrollAnimation>
   );

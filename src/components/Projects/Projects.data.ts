@@ -12,7 +12,7 @@ export const dataNewProjects = [
 export const dataOldProjects = [
   {
     id: 1,
-    project: "/assets/projects/project1/landingPageJuanaSotelo.png",
+    project: "/assets/projects/project1/juanasotelolandingpage.png",
     path: "/project1",
   },
   {

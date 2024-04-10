@@ -1,3 +1,18 @@
-Estoy actualizando mi portfolio con tecnologías como React, Next.js, TypeScript, TailwindCSS, ShadcnUI, Framer Motion y React-icons, reflejando mi dedicación a la innovación en el desarrollo web. Este proyecto demuestra mi capacidad para combinar herramientas avanzadas y crear interfaces elegantes y eficientes, optimizando la experiencia del usuario y destacando mi adaptabilidad a diversas demandas técnicas.
+<h1 align="center">Mi Portfolio</h1>
 
-Este portfolio es una vitrina de mis logros y habilidades, diseñado para mostrar mis proyectos y colaboraciones significativas. Con él, busco establecer conexiones con futuros colaboradores y empleadores, evidenciando mi compromiso con la calidad y la innovación en el desarrollo web.
+<p align="center">Proyectos que demuestran mi habilidad en desarrollo web, enfocados en eficacia y resultados concretos.</p>
+
+## Capturas de la Web
+
+![App Screenshot](https://files.catbox.moe/8qse2m.png)
+
+![App Screenshot](https://files.catbox.moe/qul31m.png)
+
+<p>
+  <a href="https://lucianogonzalezz.vercel.app/">
+    <img src="https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white" alt="portfolio"/>
+  </a>
+  <a href="https://www.linkedin.com/in/lucianogonzalez05/">
+    <img src="https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin"/>
+  </a>
+</p>

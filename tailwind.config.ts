@@ -9,12 +9,8 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        noiseWhite: "url('/assets/background/NoisyWhite.png')",
-        noiseBlack: "url('/assets/background/NoisyBlack.png')",
-      },
       maxWidth: {
-        "8xl": "1165px",
+        "8xl": "1100px",
       },
       colors: {
         "dark-bg": "#000000",

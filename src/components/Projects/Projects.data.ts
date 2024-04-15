@@ -1,6 +1,14 @@
 export const dataNewProjects = [
   {
     id: 1,
+    project: "/assets/projects/project5/LandingPageGZ-1.png",
+    path: "/project5",
+  },
+];
+
+export const dataSoonProjects = [
+  {
+    id: 1,
     project: "/assets/projects/project3/phiplay.png",
   },
   {

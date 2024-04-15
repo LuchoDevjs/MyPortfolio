@@ -6,6 +6,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.background {
+  @apply fixed top-0 z-[-2] h-screen w-screen bg-light-bg bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(0,0,0,0.7),rgba(245,245,245,0))]  dark:bg-black dark:bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(180,180,200,0.3),rgba(255,255,255,0))];
+}
+
 body {
-  @apply text-primary-light bg-light-bg bg-noiseWhite dark:bg-noiseBlack text-sm lg:text-base dark:bg-dark-bg dark:text-primary-dark font-medium;
+  @apply text-primary-light text-sm lg:text-base dark:text-primary-dark font-medium;
 }

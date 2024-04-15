@@ -1,14 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
-import { dataOldProjects } from "@/components/Projects";
+import { dataNewProjects } from "@/components/Projects";
 import { Separator } from "@radix-ui/react-separator";
 
-export const Old = () => {
+export const New = () => {
   return (
     <div>
       <h2 className="text-xl mb-5 font-semibold">Antiguos</h2>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
-        {dataOldProjects.map(({ id, project, path }) => (
+        {dataNewProjects.map(({ id, project, path }) => (
           <Link key={id} href={path}>
             <Image
               src={project}

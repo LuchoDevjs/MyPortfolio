@@ -1,13 +1,12 @@
 import Image from "next/image";
-import { dataNewProjects } from "@/components/Projects";
-import { Separator } from "@radix-ui/react-separator";
+import { dataSoonProjects } from "@/components/Projects";
 
 export const Soon = () => {
   return (
     <div>
       <h2 className="text-xl mb-5 font-semibold">Proximamente</h2>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
-        {dataNewProjects.map(({ id, project }) => (
+        {dataSoonProjects.map(({ id, project }) => (
           <Image
             key={id}
             src={project}
@@ -18,7 +17,6 @@ export const Soon = () => {
           />
         ))}
       </div>
-      <Separator className="bg-secondary-light dark:text-secondary-dark mx-auto h-[1px] my-12" />
     </div>
   );
 };

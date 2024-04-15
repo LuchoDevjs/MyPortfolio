@@ -1,6 +1,6 @@
 "use client";
 
-import { Old, Soon } from ".";
+import { New, Old, Soon } from ".";
 import { ScrollAnimation } from "../Animations";
 
 export const ProjectCarousel = () => {
@@ -12,8 +12,9 @@ export const ProjectCarousel = () => {
           <h2 className="text-2xl lg:text-4xl">Mis proyectos</h2>
         </div>
         <section className="flex flex-col items-center justify-center">
-          <Soon />
+          <New />
           <Old />
+          <Soon />
         </section>
       </div>
     </ScrollAnimation>

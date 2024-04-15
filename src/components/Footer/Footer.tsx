@@ -6,7 +6,7 @@ import { FaRegCopyright } from "react-icons/fa";
 
 export const Footer = () => {
   return (
-    <section className="bg-noiseBlack dark:bg-noiseWhite bg-black dark:bg-[#d8d8d8] rounded-t-[50px]">
+    <section className="bg-black dark:bg-[#d8d8d8] rounded-t-[50px]">
       <div className="flex flex-col lg:flex-row gap-8 justify-between p-5 items-center max-w-8xl mx-auto">
         <div className="flex flex-col gap-3 text-center">
           <div className="flex flex-row gap-3 items-center">
@@ -38,7 +38,7 @@ export const Footer = () => {
       <Separator className="bg-secondary-light dark:text-secondary-dark w-[80%] mx-auto" />
       <div className="flex flex-row items-center justify-center gap-1 p-3 text-[#999999] dark:text-[#474747]">
         <FaRegCopyright />
-        <p className="text-sm">2024 Luciano Gonzalez. All Rights Reserved.</p>
+        <p className="text-sm">2024 Luciano Gonzalez.</p>
       </div>
     </section>
   );

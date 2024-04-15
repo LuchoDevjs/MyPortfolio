@@ -4,9 +4,9 @@
 
 ## Capturas de la Web
 
-![App Screenshot](https://files.catbox.moe/8qse2m.png)
+![App Screenshot](https://files.catbox.moe/xeyppe.png)
 
-![App Screenshot](https://files.catbox.moe/qul31m.png)
+![App Screenshot](https://files.catbox.moe/fmw35p.png)
 
 <p>
   <a href="https://lucianogonzalezz.vercel.app/">

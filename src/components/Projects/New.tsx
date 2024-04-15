@@ -6,7 +6,7 @@ import { Separator } from "@radix-ui/react-separator";
 export const New = () => {
   return (
     <div>
-      <h2 className="text-xl mb-5 font-semibold">Antiguos</h2>
+      <h2 className="text-xl mb-5 font-semibold">Nuevos</h2>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
         {dataNewProjects.map(({ id, project, path }) => (
           <Link key={id} href={path}>
